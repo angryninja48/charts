@@ -1,0 +1,21 @@
+apiVersion: v2
+appVersion: 2020.12.1
+description: Pi Hole
+name: home-assistant
+version: 5.2.1
+keywords:
+- pihole
+- pi-hole
+- dns
+home: https://github.com/k8s-at-home/charts/tree/master/charts/pihole
+icon: https://upload.wikimedia.org/wikipedia/en/thumb/1/15/Pi-hole_vector_logo.svg/1200px-Pi-hole_vector_logo.svg.png
+sources:
+- https://github.com/home-assistant/home-assistant
+
+maintainers:
+- name: angryninja
+  email: jonbaker85@gmail.com
+dependencies:
+- name: common
+  repository: https://k8s-at-home.com/charts/
+  version: 2.1.1
